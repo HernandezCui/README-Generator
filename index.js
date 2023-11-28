@@ -27,20 +27,6 @@ const questions = [
         name: "description",
     },
     {
-        type: "checkbox",
-        message: "What did you use to create your project?",
-        name: "languages",
-        choices: [
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "JQuery",
-            "ES6",
-            "Bootstrap",
-            "Node.js",
-        ],
-    },
-    {
         type: "list",
         message: "What license did you use for your project?",
         name: "license",
@@ -55,7 +41,7 @@ const questions = [
     {
         type: "input",
         message: "what command should be run to install dependencies?",
-        name: "installations",
+        name: "installation",
     },
     {
         type: "input",
