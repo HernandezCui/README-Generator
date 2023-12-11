@@ -3,10 +3,6 @@ function generateMarkdown(data) {
   return  `# ${data.title}
   ![License Badge](https://img.shields.io/badge/License-${data.license}-green.svg)
 
-  ### GitHub Username: ${data.username}
-
-  ### GitHub Email Address: ${data.email}
-
   ## Description
   ${data.description}
 
